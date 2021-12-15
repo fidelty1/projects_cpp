@@ -193,7 +193,7 @@ void wywolaj(void)
     cout<<endl<<"Wspolczynnik a prostej ma wartosc: "<<wspolczynnik_a(n,Targ,Twar)<< " [jednostka y/jednostka x]"<<endl;
     cout<<endl<<"Wspolczynnik b prostej ma wartosc: "<<wspolczynnik_b(n,Targ,Twar)<< " [jednostka y]"<<endl;
     cout<<endl<<"Wspolczynnik korelacji R^2 ma wartosc: "<<wspolczynnik_korelacji(n,Targ,Twar)<< " [brak jednostki]"<<endl;
-    cout<<"Wartosc wspolczynnika korelacji z zakresu <0;1>, gdzie 0 oznacza calkowita niezgodnosc badanych punktow z otrzymana prosta, a 0 oznacza calkowita zgodnosc badanych punktow z otrzymana prosta"<<endl;
+    cout<<"Wartosc wspolczynnika korelacji z zakresu <0;1>, gdzie 0 oznacza calkowita niezgodnosc badanych punktow z otrzymana prosta, a 1 oznacza calkowita zgodnosc badanych punktow z otrzymana prosta"<<endl;
 
     delete [] Targ;
     delete [] Twar;
